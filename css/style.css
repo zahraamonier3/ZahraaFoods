@@ -1,0 +1,298 @@
+html {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav ,.footer-nav,.social-nav {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li ,.footer-nav li,.social-nav li {
+    margin-right: 30px;
+}
+
+.main-nav li a , .footer-nav li a,.social-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-nav li a:hover,.footer-nav a:hover,.social-nav:a:hover  {
+    text-decoration: underline;
+    color: orange;
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    line-height: 150%;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    border: 1px solid orange;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: orange;
+}
+
+.hero a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    border: solid 3px orange;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+.feat-desc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 150%;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 400;
+}
+
+.feat {
+    text-align: center;
+}
+
+.feat h3 {
+    font-weight: 700;
+}
+
+.feat p {
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.feat i {
+    font-size: 40px;
+    color: orange;
+}
+
+.meal {
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+}
+
+.meal img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.meal img:hover {
+    opacity: 1;
+}
+
+.left-work {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.left-work img {
+    width: 40%;
+}
+
+.right-work {
+    padding-top: 100px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.step div {
+    width: 50px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 15px;
+    line-height: 50px;
+}
+
+.right-work a {
+    margin-right: 20px;
+}
+
+.right-work img {
+    height: 50px;
+}
+
+.city {
+    padding-top: 30px;
+}
+
+.city img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.city-info {
+    display: flex;
+    align-items: center;
+}
+
+.city-info i {
+    color: orange;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+#testimonials {
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.7)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#testimonials i {
+    font-size: 50px;
+}
+
+#testimonials img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+#testimonials p {
+    line-height: 150%;
+}
+
+.cust {
+    margin-top: 30px;
+}
+
+.cust i {
+    font-size: 50px;
+}
+
+.cust p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.cust img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+form {
+    padding-top: 50px;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+input[type=checkbox]  {
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px 30px;
+    border: solid 1px orangered;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+
+form button:hover {
+    background-color: white;
+    color: orange;
+}
+footer{
+    margin-top: 40px 0px;
+    background-color: #333;
+}
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: #ccc;
+}
+.social-nav{
+    float: right;
+}
